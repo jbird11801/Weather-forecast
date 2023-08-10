@@ -1,26 +1,10 @@
 # Weather-forecast
 
+link to live site : https://jbird11801.github.io/Weather-forecast/
+
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
-
-## Installation
-
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+I made this program with the intention of adding it to my digitl portfolio. I enjoyed puuting all of what ive learned into this project and learning more. I couldent do the full five day forcast like in the. \assets\Refrence\Assets\06-server-side-apis-homework-demo.png as the max call of data I can do is 40, and each point is in 3 hour intevals so that means thats 8 poins per for 5 days. One day is the current day that leaves 4 future days. I did do the future forecast with five days to prove I could do it but one is a duplicate of todays forcast.
 
 ## Usage
 
@@ -34,11 +18,17 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 
 Used to make the read me file https://courses.bootcampspot.com/courses/3906/pages/3-dot-5-3-create-a-professional-project-readme?module_item_id=885925
 
-List your collaborators, if any, with links to their GitHub profiles.
+used to help with bootstrap syntax https://getbootstrap.com/docs/5.1/components/progress/#height
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
+used to hide and show elements useing jqury https://stackoverflow.com/questions/3582619/how-can-i-change-css-display-none-or-block-property-using-jquery
 
-If you followed tutorials, include links to those here as well.
+I learned about breaks in highschool but i read up on them here https://www.w3schools.com/js/js_break.asp
+
+open weather api https://openweathermap.org/forecast5
+
+geocodeing api https://openweathermap.org/api/geocoding-api
+
+jqury api Documentation https://api.jquery.com/jQuery
 
 ## License
 

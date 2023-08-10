@@ -31,11 +31,11 @@
 
       <H3 class="mb-3">Search for a City:</H3>
 
-      <input class="mb-3" type="text">
+      <input id="cityInp" class="mb-3" type="text">
 
-      <button class="banner">Search</button>
+      <button id="search" class="banner">Search</button>
     
-      <div>
+      <div id="PastLocal" class="d-flex flex-column">
 
       </div>
 
@@ -43,15 +43,111 @@
 
     <!--forecast-->
 
-    <section class="col-8">
+    <section id="forecast" class="col-8">
 
-      <div class="border border-2">
+      <div class="border border-2 banner">
+
+        <section class="d-flex">
+
+        <h4 id="locationName"></h4>
+
+        <img id="WeatherIcon"></img>
+      
+      </section>
+
+      <section class="d-flex">
+
+        <p>Temp : <p id="Temp"></p></p>
+
+      </section>
+
+      <section class="d-flex">
+
+        <p>Wind : <p id="Wind"></p></p>
+
+      </section>
+
+      <section class="d-flex">
+
+        <p>Humidity : <p id="Humidity"></p></p>
+
+      </section>
 
       </div>
 
       <h4>5-Day Forecast</h4>
 
       <section class="d-flex flex-column flex-md-row justify-content-md-around" >
+
+        <div id="day1" class="banner">
+
+          <h6></h6>
+
+          <img></img>
+
+        <p id="Temp"></p>
+
+        <p id="Wind"></p>
+
+        <p id="Humidity"></p>
+
+        </div>
+
+        <div id="day2" class="banner">
+
+          <h6></h6>
+
+          <img></img>
+
+        <p id="Temp"></p>
+
+        <p id="Wind"></p>
+
+        <p id="Humidity"></p>
+
+        </div>
+
+        <div id="day3" class="banner">
+
+          <h6></h6>
+
+          <img></img>
+
+        <p id="Temp"></p>
+
+        <p id="Wind"></p>
+
+        <p id="Humidity"></p>
+
+        </div>
+
+        <div id="day4" class="banner">
+
+          <h6></h6>
+
+          <img></img>
+
+        <p id="Temp"></p>
+
+        <p id="Wind"></p>
+
+        <p id="Humidity"></p>
+
+        </div>
+
+        <div id="day5" class="banner">
+
+          <h6></h6>
+
+          <img></img>
+
+        <p id="Temp"></p>
+
+        <p id="Wind"></p>
+
+        <p id="Humidity"></p>
+
+        </div>
 
       </section>
 
