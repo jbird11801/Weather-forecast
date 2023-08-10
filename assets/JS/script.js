@@ -64,7 +64,7 @@ searchBut.on("click" , function(){
 
 function getGeocodingApi (input) {
 
-    var GeocodingLink = 'http://api.openweathermap.org/geo/1.0/direct?q='+input+'&limit=1&appid=cb2e3e3fa680c7a0270bf0248a21b14d';
+    var GeocodingLink = 'https://api.openweathermap.org/geo/1.0/direct?q='+input+'&limit=1&appid=cb2e3e3fa680c7a0270bf0248a21b14d';
 
     fetch(GeocodingLink)
 
