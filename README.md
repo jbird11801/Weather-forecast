@@ -8,11 +8,13 @@ I made this program with the intention of adding it to my digitl portfolio. I en
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+Simply input the name of your city and hit the search button to see the weather for the next five days 
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
+![Image showing the search button ](assets/images/Search.PNG)
 
-![alt text](assets/images/screenshot.png)
+The results are desplayed and cover the next few days. the past searches will also show up and can be clicked on to show the weather. for that location.
+
+![Image showing the result of a search](assets/images/Results.PNG)
 
 ## Credits
 
