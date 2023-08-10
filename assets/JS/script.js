@@ -64,7 +64,7 @@ searchBut.on("click" , function(){
 
 function getGeocodingApi (input) {
 
-    var GeocodingLink = 'http://api.openweathermap.org/geo/1.0/direct?q='+input+'&limit=1&appid=cb2e3e3fa680c7a0270bf0248a21b14d';
+    var GeocodingLink = 'https://api.openweathermap.org/geo/1.0/direct?q='+input+'&limit=1&appid=cb2e3e3fa680c7a0270bf0248a21b14d';
 
     fetch(GeocodingLink)
 
@@ -88,7 +88,7 @@ function getGeocodingApi (input) {
 
 function getWeather ( lat , lon , newSearch){
 
-    var weatherLink = 'http://api.openweathermap.org/data/2.5/forecast?lat='+lat+'&lon='+lon+'&cnt=50&appid=cb2e3e3fa680c7a0270bf0248a21b14d&units=imperial';
+    var weatherLink = 'https://api.openweathermap.org/data/2.5/forecast?lat='+lat+'&lon='+lon+'&cnt=50&appid=cb2e3e3fa680c7a0270bf0248a21b14d&units=imperial';
 
     fetch(weatherLink)
 
