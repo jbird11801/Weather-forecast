@@ -1,6 +1,7 @@
 .banner {
     
-    background-image: url("./assets/images/Banner.jpg");
+    background-image: url(/assets/Banner.jpg);
+
 
 }
 
